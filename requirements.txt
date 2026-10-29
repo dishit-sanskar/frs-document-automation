@@ -1,0 +1,7 @@
+# Python packages for the scripts that run OUTSIDE the bench (extract_inputs, gen_doctypes, capture, build_frs).
+# gen_doctypes.py needs only the standard library; run_in_site.py and seed scripts use the bench's own env/bin/python.
+python-docx>=1.1
+openpyxl>=3.1
+playwright>=1.40
+pillow>=10.0
+lxml>=5.0
